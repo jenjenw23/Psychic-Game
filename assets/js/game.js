@@ -19,12 +19,10 @@
 	// Randomly chooses a choice from the options array. This is the Computer's guess.
 	  if (guess === 9) { 
       computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-	  console.log("computer guess is " + computerGuess);
 	  }	
 	
       // Determines which key was pressed.
       var userGuess = event.key;
-	  console.log(userGuess);
 	  
 	  var guessDiv = document.getElementById("userChoice");
 	  var holdGuess = document.createElement("p");
